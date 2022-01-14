@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./fontawes/fontawes/CSS/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- wow.js -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css' />
+  <!-- swiper css-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- header -->
+  <div id="header">
+    <div id="top">
+      <label for="checkmenu" class="hamburger">
+        <span></span>
+      </label>
+      <a href="index.html">
+        <img class="logo" src="./images/logo.png" alt="">
+      </a>
+      <div class="phone">
+        <div class="tel_icon">
+          <i class="fas fa-phone-alt" style="color:#b2e8f9;"></i>
+        </div>
+        <div class="tel">
+          <div><a href="">1-800-1234-567</a></div>
+          <div><a href="">1-800-8763-765</a></div>
+        </div>
+      </div>
+      <div class="location">
+        <div class="location_icon">
+          <i class="fas fa-map-marker-alt" style="color:#b2e8f9;"></i>
+        </div>
+        <div class="address">
+          <div><a href="#">2130 Fulton Street <br>San Deigo,CA 941170-1080</a></div>
+        </div>
+      </div>
+      <div class="call">
+        <button>REQUEST A CALL</button>
+      </div>
+    </div>
+  </div>
+  <!-- 側邊欄 -->
+  <input id="checkmenu" type="checkbox">
+  <div class="sidebar">
+    <div class="menu">
+      <input id="search" type="text" name="search" placeholder="Search...">
+      <button class="search_btn" type="submit">
+        <i class="fas fa-search fa-2x"></i>
+      </button>
+      <ul class="menu_list">
+        <li id="home"><a class="text1" href="index.html">HOME</a></li>
+        <li class="features">
+          <a class="text1" href="#">FEATURES</a>
+          <label for="arrow_list">
+            <i class="fas fa-chevron-down"></i>
+          </label>
+        </li>
+        <input id="arrow_list" type="checkbox">
+        <ul class="list list1">
+          <li><a class="text2" href="">Typography</a></li>
+          <li><a class="text2" href="">Button</a></li>
+          <li><a class="text2" href="">Forms</a></li>
+          <li><a class="text2" href="">Progress bars</a></li>
+          <li><a class="text2" href="">Tabs</a></li>
+          <li><a class="text2" href="">Tables</a></li>
+          <li><a class="text2" href="">Accordions</a></li>
+        </ul>
+        <li class="services">
+          <a class="text1" href="">SERVICES</a>
+          <label for="arrow_list2">
+            <i class="fas fa-chevron-down"></i>
+          </label>
+        </li>
+        <input id="arrow_list2" type="checkbox">
+        <ul class="list list2">
+          <li><a class="text2" href="">Single Service</a></li>
+        </ul>
+        <li class="blog">
+          <a class="text1" href="">BLOG</a>
+          <label for="arrow_list3">
+            <i class="fas fa-chevron-down"></i>
+          </label>
+        </li>
+        <input id="arrow_list3" type="checkbox">
+        <ul class="list list3">
+          <li><a class="text2" href="">Grid Blog</a></li>
+          <li><a class="text2" href="">Sidebar Blog</a></li>
+          <li><a class="text2" href="">Single Blog Post</a></li>
+        </ul>
+        <li class="portfolio">
+          <a class="text1" href="">PORTFOLIO</a>
+          <label for="arrow_list4">
+            <i class="fas fa-chevron-down"></i>
+          </label>
+        </li>
+        <input id="arrow_list4" type="checkbox">
+        <ul class="list list4">
+          <li><a class="text2" href="">Grid Gallery</a></li>
+          <li><a class="text2" href="">Masonry Gallery</a></li>
+          <li><a class="text2" href="">Modern Gallery</a></li>
+        </ul>
+        <li class="pages">
+          <a class="text1" href="">PAGES</a>
+          <label for="arrow_list5">
+            <i class="fas fa-chevron-down"></i>
+          </label>
+        </li>
+        <input id="arrow_list5" type="checkbox">
+        <div class="page_list list5">
+          <div class="banner">
+            <button class="text1">BUY THEME</button>
+          </div>
+          <div class="banner_list1">
+            <ul>
+              <li><a class="text2" href="">404 Page</a></li>
+              <li><a class="text2" href="">503 Page</a></li>
+              <li><a class="text2" href="">Coming soon</a></li>
+              <li><a class="text2" href="">Under Construction</a></li>
+              <li><a class="text2" href="">About Us</a></li>
+              <li><a class="text2" href="">About Me</a></li>
+            </ul>
+          </div>
+          <div class="banner_list2">
+            <ul>
+              <li><a class="text2" href="">Careers</a></li>
+              <li><a class="text2" href="">Search results</a></li>
+              <li><a class="text2" href="">Services</a></li>
+              <li><a class="text2" href="">Single Service</a></li>
+              <li><a class="text2" href="">Single Job</a></li>
+              <li><a class="text2" href="">Privacy policy</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <li class="contacts"><a class="text1" href="">CONTACTS</a></li>
+        <li class="searchBtn">
+          <label for="search_btn2">
+            <i class="fas fa-search"></i>
+          </label>
+        </li>
+        <input id="search_btn2" type="checkbox">
+        <ul class="list list6">
+          <li>
+            <input type="text" id="search2" name="search" placeholder="Search...">
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </div>
+
+  <!-- section1 --------------------------------------- -->
+  <section id="section1" class="zone1">
+    <div class="info">
+      <input id="dog1" type="radio" name="showerdog" checked>
+      <div class="info_item animate__animated animate__fadeInRight">
+        <div class="col_text ">
+          <h1 class="text2">Make Your Dogs</h1>
+          <h1 class="text2">Look Their Best</h1>
+          <button class='text1'>FREE CONSULTATION</button>
+        </div>
+        <div class="col_img">
+          <img src="./images/swiper-image-1-960x776.jpg">
+        </div>
+      </div>
+
+      <input id="dog2" type="radio" name="showerdog">
+      <div class="info_item animate__animated animate__fadeInRight">
+        <div class="col_text">
+          <h1 class="text2">Royal Services</h1>
+          <h1 class="text2">For Your Dog</h1>
+          <button class="text1">FREE CONSULTATION</button>
+        </div>
+        <div class="col_img">
+          <img src="./images/megamenu-banner-1-570x368.jpg">
+        </div>
+      </div>
+
+      <input id="dog3" type="radio" name="showerdog">
+      <div class="info_item animate__animated animate__fadeInRight">
+        <div class="col_text">
+          <h1 class="text2">Exceptional</h1>
+          <h1 class="text2">Dog Grooming</h1>
+          <button class="text1">FREE CONSULTATION</button>
+        </div>
+        <div class="col_img">
+          <img src="./images/swiper-image-3-960x776.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="num">
+      <div class="num_text">
+        <label for="dog1"><span>
+            <h1 class="text2">01</h1>
+          </span></label>
+        <label for="dog2"><span>
+            <h1 class="text2">02</h1>
+          </span></label>
+        <label for="dog3"><span>
+            <h1 class="text2">03</h1>
+          </span></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- section2 ----------------------------------- -->
+  <section id="section2">
+    <div class="info2">
+      <img class="bubble2" src="./images/bubbles-219x209.png">
+      <div class="info2_col">
+        <div class="info2_text">
+          <h3 class="text2  wow animate__fadeInDown">A Few Words About Us</h3>
+          <p class="text2  wow animate__fadeInDown">SpaDog is a pet salon established in 1999 with the main goal of giving your pets the full
+            furry body
+            treatment
+            so that they can look their very best every day.</p>
+          <p class="text2  wow animate__fadeInDown">Our salon offers a complete line of fine grooming services to bring out the best of
+            appearance and
+            personality
+            in your pet. Our groomers work carefully, never rush, and do not overbook appointments.</p>
+          <div class="info2_btn">
+            <button class="text1">LEARN MORE</button>
+          </div>
+        </div>
+        <div class="info2_img">
+          <img src="./images/section2_img1.jpg">
+        </div>
+      </div>
+      <img class="bubble3" src="./images/bubbles-224x306.png" alt="">
+    </div>
+  </section>
+  <!-- section3 ------------------------------- -->
+  <section id="section3">
+    <div class="info3">
+      <div class="info3_text text2">
+        <div class="info3_text_box">
+          <div><i class="far fa-star"></i></div>
+          <div>
+            <h4 class="wow animate__fadeInDown">Qualified Employees</h4>
+            <p class="wow animate__fadeInUp">Our team consists of more than 20 qualified and experienced accountants, marketers, and managers.</p>
+          </div>
+        </div>
+
+        <div class="info3_text_box">
+          <div><i class="far fa-heart"></i></div>
+          <div>
+            <h4 class="wow animate__fadeInDown">Free Consultations</h4>
+            <p class="wow animate__fadeInUp">Our acquaintance with a client always begins with a free consultation to find out possible solutions to
+              their problems.</p>
+          </div>
+        </div>
+
+        <div class="info3_text_box mb">
+          <div><i class="fas fa-cut"></i></div>
+          <div>
+            <h4 class="wow animate__fadeInDown">100% Guaranteed</h4>
+            <p class="wow animate__fadeInUp">All results that you get from us are 100% guaranteed to bring you to a whole new level of profitability
+              and
+              financial success.</p>
+          </div>
+        </div>
+
+        <div class="info3_text_box">
+          <div><i class="fas fa-trophy"></i></div>
+          <div>
+            <h4 class="wow animate__fadeInDown">100% Guaranteed</h4>
+            <p class="wow animate__fadeInUp">All results that you get from us are 100% guaranteed to bring you to a whole new level of profitability
+              and
+              financial success.</p>
+          </div>
+        </div>
+      </div>
+      <div class="info3_img">
+        <img src="./images/section2_img2.jpg">
+      </div>
+    </div>
+  </section>
+  <!-- section4 -------------------------------------------- -->
+  <section id="section4">
+    <img class="bubble4" src="./images/bubbles-225x463.png">
+    <img class="bubble5" src="./images/bubbles-83x127.png" alt="">
+    <div class="carePets">
+      <h4 class="text2 wow animate__fadeInRight">Qualified Personal Care For Your Pets</h4>
+      <div class="care_btn  wow animate__fadeInLeft">
+        <button class="text1">VIEW ALL PRICING</button>
+      </div>
+    </div>
+  </section>
+  <!-- section5 ---------------------------------------------------- -->
+  <section id="section5">
+    <div class="info5">
+      <div class="service_text text2">
+        <h3 class="wow animate__fadeInUp">Service</h3>
+        <!-- 文字要調整 -->
+        <p class="wow animate__fadeInDown">We offer a variety of grooming services for dogs of all breeds and ages. We use only high-quality products
+          that suit the needs of your pet. Discover our most popular services below.</p>
+      </div>
+      <div class="service">
+        <div class="service_img  wow animate__fadeInLeft">
+          <a href="#">
+            <img src="./images/service-thumbnail-1-270x200.jpg">
+          </a>
+          <a class="text2" href="">
+            <h4>Styling</h4>
+          </a>
+        </div>
+        <div class="service_img  wow animate__fadeInLeft">
+          <a href="">
+            <img src="./images/service-thumbnail-2-270x200.jpg">
+          </a>
+          <a class="text2" href="">
+            <h4>Full Grooming</h4>
+          </a>
+        </div>
+        <div class="service_img  wow animate__fadeInLeft">
+          <a href="">
+            <img src="./images/service-thumbnail-3-270x200.jpg">
+          </a>
+          <a class="text2" href="">
+            <h4>Bath & Tidy Up</h4>
+          </a>
+        </div>
+        <div class="service_img  wow animate__fadeInLeft">
+          <a href="">
+            <img src="./images/service-thumbnail-4-270x200.jpg">
+          </a>
+          <a class="text2" href="">
+            <h4>Deluxe Bath</h4>
+          </a>
+
+        </div>
+      </div>
+      <div class="service_btn  wow animate__fadeInUp">
+        <button class="text1"> VIEW ALL SERVICES</button>
+      </div>
+    </div>
+  </section>
+  <!-- section6 -->
+  <section id="section6">
+    <div class="info6">
+      <h3 class="text2  wow animate__fadeInDown">Pricing</h3>
+      <div class="pricing text2">
+        <div class="price_box  wow animate__fadeInRight">
+          <h5>
+            <a href="">Basic Package</a>
+          </h5>
+          <p>
+            <span>$</span>49.00
+          </p>
+          <hr>
+          <p>Our basic package is an important part of dog grooming as it offers affordable bathing and brushing for
+            dogs of any breed.</p>
+          <button class="text1">ORDER NOW</button>
+        </div>
+        <div class="price_box  wow animate__fadeInRight">
+          <h5>
+            <a href="">Advanced Package</a>
+          </h5>
+          <p>
+            <span>$</span>67.00
+          </p>
+          <hr>
+          <p>Our upgraded package is designed for dogs who need a little extra TLC by keeping skin moisturized, using a
+            specialized shampoo & conditioner.</p>
+          <button class="text1">ORDER NOW</button>
+        </div>
+        <div class="price_box  wow animate__fadeInRight">
+          <h5>
+            <a href="">Pro Package</a>
+          </h5>
+          <p>
+            <span>$</span>86.00
+          </p>
+          <hr>
+          <p>This ultimate spa package is featured for the spoiled pup who needs the works and wants to enjoy a day of
+            relaxation and beauty.</p>
+          <button class="text1">ORDER NOW</button>
+        </div>
+      </div>
+      <img class="bubble6" src="./images/bubbles-201x215.png">
+    </div>
+  </section>
+  <!-- section7 ------------------------------------------------- -->
+  <section id="section7">
+    <div class="info7">
+      <h3 class="text2 wow animate__fadeInDown">Testimonials</h3>
+      <div id="chiao" class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide_box">
+              <div class="avatar">
+                <img src="./images/testimonials-person-1-96x96.jpg">
+              </div>
+              <div class="member text2">
+                <h4>Kelly McMillan</h4>
+                <p>Private Entrepreneur</p>
+              </div>
+              <div class="testimonials text2">
+                My dog is 10 this year. She has been going to this grooming salon every day for the past five years.
+                Thanks to the care and special shampoos used at SpaDog, she is now in very good health again.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_box">
+              <div class="avatar">
+                <img src="./images/testimonials-person-2-96x96.jpg">
+              </div>
+              <div class="member text2">
+                <h4>Harold Barnett</h4>
+                <p>Regional Manager</p>
+              </div>
+              <div class="testimonials text2">
+                I bring my Westie “Dougie” to SpaDog for the past 4 years. Their groomers are fantastic, always do an
+                amazing job and are always so nice and cheerful. Would recommend them to every dog owner!
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_box">
+              <div class="avatar">
+                <img src="./images/testimonials-person-3-96x96.jpg">
+              </div>
+              <div class="member text2">
+                <h4>Albert Webb</h4>
+                <p>CEO at Majestic</p>
+              </div>
+              <div class="testimonials text2">
+                My Yorkie 'Toby' has been coming to this grooming studio for over 8 years and always looks beautiful
+                afterward. Having tried other grooming salons before, I wouldn't bring him anywhere else.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_box">
+              <div class="avatar">
+                <img src="./images/testimonials-person-4-96x96.jpg">
+              </div>
+              <div class="member text2">
+                <h4>Samantha Lee</h4>
+                <p>Sales Manager at Hillplan</p>
+              </div>
+              <div class="testimonials text2">
+                I really feel comfortable leaving my Max at SpaDog. He always comes homes happy and relaxed and the
+                groomers there are warm, friendly and welcoming. They always do what you ask.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_box">
+              <div class="avatar">
+                <img src="./images/testimonials-person-5-96x96.jpg">
+              </div>
+              <div class="member text2">
+                <h4>Bill Warner</h4>
+                <p>Private Entrepreneur</p>
+              </div>
+              <div class="testimonials text2">
+                We are in the area for a few months and my 2 furry boys needed grooming. SpaDog team was very friendly
+                and
+                the boys liked it there. They did not have to spend a lot of time there like so many places.
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_box">
+              <div class="avatar">
+                <img src="./images/testimonials-person-6-96x96.jpg">
+              </div>
+              <div class="member text2">
+                <h4>Adam Smith</h4>
+                <p>CEO at Majestic</p>
+              </div>
+              <div class="testimonials text2">
+                Thank you for making my dog look so fantastic! He was a smelly matted mess and now he looks so handsome!
+                I will surely recommend your grooming salon to my friends and colleagues.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <!-- section8 --------------------------------------------- -->
+  <section id="section8">
+    <img class="puppy" src="./images/home-3-359x546.png">
+    <img class="bubble7" src="./images/bubbles-187x131.png">
+    <img class="bubble8" src="./images/bubbles-295x474.png">
+    <div class="info8">
+      <div class="bestGrooming">
+        <h3 class="text2 wow animate__fadeInDown">Best Grooming Services for Your Furry Friend</h3>
+        <p class="text2 wow animate__fadeInDown">Our dog grooming salon is always ready to offer the best services for your pets. Schedule an
+          appointment to make your dog look awesome!</p>
+        <button class="text1 wow animate__fadeInDown">FREE CONSULTATION</button>
+      </div>
+    </div>
+  </section>
+  <!-- section9 ------------------------------------------ -->
+  <section id="section9">
+    <img class="bubble9" src="./images/bubbles-187x131.png">
+    <div class="info9">
+      <h3 class="text2 wow animate__fadeInDown">Latest Blog Posts</h3>
+      <div class="grid_blog">
+        <div class="post wow animate__fadeInLeft">
+          <img src="./images/grid-blog-1-570x353.jpg" alt="">
+          <h4 class="text2"><a href="">How To Keep Your Dog Cool In Summer</a> </h4>
+          <ul class="post_content text2">
+            <li>by Theresa Barnes</li>
+            <li>Apr 21, 2020 at 12:05 pm</li>
+            <li>News</li>
+          </ul>
+          <p class="text2">With summer upon us, it's natural for us to all want to get out and enjoy the sunshine.
+            However, if you're a dog owner, extra care and consideration need to be taken during the warmer months.
+            Sun...</p>
+        </div>
+        <div class="post wow animate__fadeInLeft">
+          <img src="./images/grid-blog-2-570x353.jpg" alt="">
+          <h4 class="text2"><a href="">Top Tips for Grooming an Unruly Doodle Coat</a> </h4>
+          <ul class="post_content text2">
+            <li>by Theresa Barnes</li>
+            <li>Apr 21, 2020 at 12:05 pm</li>
+            <li>News</li>
+          </ul>
+          <p class="text2">Doodle breeds have taken the world by storm in recent years. We've fallen head over heels in
+            love with
+            Labradoodles, Cockapoos, Cavapoos and Poochons. But with all that wavy fluff comes a...</p>
+        </div>
+      </div>
+      <div class="grid_blog_btn">
+        <button class="text1">VIEW ALL BLOG POSTS</button>
+      </div>
+    </div>
+  </section>
+  <!-- section10 --------------------->
+  <section id="section10">
+    <div class="info10">
+      <div class="info10_row">
+        <div class="contact">
+          <h3 class="text2 wow animate__fadeInDown ">Contact Us</h3>
+          <form class="">
+            <div class="form_list wow animate__fadeInUp">
+              <div class="first_name text2">
+                <label for="">First Name</label>
+                <input type="text">
+              </div>
+              <div class="last_name text2">
+                <label for="">Last Name</label>
+                <input type="text">
+              </div>
+              <div class="mail text2">
+                <label for="">E-mail</label>
+                <input type="text">
+              </div>
+              <div class="phoneNum text2">
+                <label for="">Phone</label>
+                <input type="text">
+              </div>
+              <div class="message text2">
+                <label for="">Your Message</label>
+                <input type="text">
+              </div>
+            </div>
+            <div class="message_btn">
+              <div class="send_btn">
+                <button class="text1 wow animate__fadeInRight">SEND MESSAGE</button>
+                <p class="text2">or use</p>
+              </div>
+              <div class="messenger_btn wow animate__fadeInLeft">
+                <button class="text1">
+                  <i class="fab fa-facebook-messenger"></i>
+                  MESSENGER
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7035065346836!2d121.41732691432402!3d25.044134144040637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7bec9ad74b1%3A0xa639904a89f26435!2z5Yue5YuV6YOo5Yue5YuV5Yqb55m85bGV572y5YyX5Z-65a6c6Iqx6YeR6aas5YiG572y5rOw5bGx6IG35qWt6KiT57e05aC0!5e0!3m2!1szh-TW!2stw!4v1641581927850!5m2!1szh-TW!2stw"
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section11 -->
+  <section id="section11">
+    <img class="bubble10" src="./images/bubbles-201x215.png" alt="">
+    <div class="info11">
+      <div class="info11_box">
+        <div class="info11_phone wow animate__fadeInUp">
+          <i class="fas fa-phone-alt fa-lg"></i>
+          <p class="text2"><a href="">1-800-1234-567<br>
+              1-800-8763-765</a></p>
+        </div>
+        <div class="info11_mail wow animate__fadeInUp">
+          <i class="fas fa-envelope fa-lg"></i>
+          <p class="text2"><a href="#">info@demolink.org</a></p>
+        </div>
+        <div class="info11_location wow animate__fadeInUp">
+          <i class="fas fa-map-marker-alt fa-lg"></i>
+          <p class="text2"><a href="#">2130 Fulton Street San Diego, CA 94117-1080 USA</a>
+        </div>
+        </p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- footer --------------------->
+  <section id="footer">
+    <div class="footer_info">
+      <div class="up">
+        <div class="about_us  text2">
+          <h4>About Us</h4>
+          <p>Our firm is one of the leading accounting firms in the area. By combining our expertise, experience and the
+            energy of our staff, each client receives close personal and professional attention. Our high standards,
+            service and specialized staff spell the difference between our outstanding performance and other firms.</p>
+        </div>
+        <div class="recent_blog  text2">
+          <h4>Recent Blog Posts</h4>
+          <div class="article1">
+            <p><a href="#">Top Tips from Accountants: How To Handle IRS Scams</a></p>
+            <p><span>by Theresa Barnes</span><span>2 days ago</span> </p>
+          </div>
+          <div class="article2 text2">
+            <p><a href="">Blogging for Financial Advisors: Build a Trusted Relationship Through Your Blog</a></p>
+            <p><span>by Theresa Barnes</span> <span>2 days ago</span> </p>
+          </div>
+        </div>
+        <div class="project">
+          <h4 class="text2">Our Projects</h4>
+          <div class="project_img">
+            <a class="hover_blue" href="">
+              <img src="./images/footer-gallery-1-85x85.jpg" alt="">
+              <span></span>
+            </a>
+            <a class="hover_blue" href="">
+              <img src="./images/footer-gallery-2-85x85.jpg" alt="">
+              <span></span>
+            </a>
+            <a class="hover_blue" href="">
+              <img src="./images/footer-gallery-3-85x85.jpg" alt="">
+              <span></span>
+            </a>
+            <a class="hover_blue" href="">
+              <img src="./images/footer-gallery-4-85x85.jpg" alt="">
+              <span></span>
+            </a>
+            <a class="hover_blue" href="">
+              <img src="./images/footer-gallery-5-85x85.jpg" alt="">
+              <span></span>
+            </a>
+            <a class="hover_blue" href="">
+              <img src="./images/footer-gallery-6-85x85.jpg" alt="">
+              <span></span>
+            </a>
+            <a class="hover_blue" href="">
+              <img src="./images/footer-gallery-7-85x85.jpg" alt="">
+              <span></span>
+            </a>
+            <a class="hover_blue" href="">
+              <img src="./images/footer-gallery-8-85x85.jpg" alt="">
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="down">
+        <div class="nav text1">
+          <a href="">HOME</a>
+          <a href="">ABOUT</a>
+          <a href="">SERVICE</a>
+          <a href="">GALLERY</a>
+          <a href="">BLOG</a>
+          <a href="">CONTACT</a>
+        </div>
+        <div class="socialSoftware">
+          <a href=""><i class="fab fa-facebook-f fa-lg"></i></a>
+          <a href=""><i class="fab fa-twitter fa-lg"></i></a>
+          <a href=""><i class="fab fa-instagram fa-lg"></i></a>
+          <a href=""><i class="fab fa-google fa-lg"></i></a>
+          <a href=""><i class="fab fa-linkedin-in fa-lg"></i></a>
+        </div>
+      </div>
+      <div class="line">
+        <hr>
+      </div>
+      <div class="logo2">
+        <div class="logo2_img">
+          <img src="./images/logo-inverse-334x88.png">
+        </div>
+        <div class="copyright">
+          <p class="text2">
+            &copy; 2022 All Rights Reserved. <br>
+            <a class="text2" href="#">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        boxClass: 'wow',      // default
+        animateClass: 'animate__animated', // default
+        offset: 0,          // default
+        mobile: true,       // default
+        live: true        // default
+      }
+    )
+    wow.init();
+
+    const swiper = new Swiper("#chiao", {
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+        delay: 5000
+      },
+      speed: 1000,
+      breakpoints: {
+        // when window width is >= 320px
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        // when window width is >= 480px
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 10
+        }
+      },
+      // when window width is >= 640px
+      pagination: {
+        dynamicBullets: false,
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    })
+
+  </script>
+</body>
+
+</html>
